@@ -1,6 +1,8 @@
 #Program 2 – Weekly Loan Calculator
 #Develop a short term loan calculator program as a console application 
-
+# Student Name: Jenille Cheney
+#Program Name: Weekly Loan Calculator
+# Description: Assignment 1 Program 2/3
 def main():
     # YOUR CODE STARTS HERE, each line must be indented (one tab)
 # this is the Weekly loan calculator
