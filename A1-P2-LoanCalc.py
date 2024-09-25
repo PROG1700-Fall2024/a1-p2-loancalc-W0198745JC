@@ -6,7 +6,6 @@ def main():
 # this is the Weekly loan calculator
     print("Weekly Loan Calculator")
     print("")
-    print("")
 # input the amount of loan (variable)
     loanAmount=input("Enter the amount of loan: ")
 #input the interest rate (%)(variable)
@@ -20,7 +19,6 @@ def main():
     WeeklyPayment= weeklyInterest/(1 - (1+ weeklyInterest) ** (-52*int(NumYears))) * int(loanAmount)
 #so many parenthesis it was a challenge to figure out appropriate placement.
 #your weekly payment will be ${0:.2f}
-    print("")
     print("")
     print("Your weekly payment will be ${0:.2f}".format(WeeklyPayment))
 
