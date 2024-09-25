@@ -13,9 +13,12 @@ def main():
     NumYears=input("Enter the number of years: ")
 # the calculations 
 #i = interest rate (variable) / 5200
-# weekly payment = i/1 - (1+i)**(-52*years) * loan amount  (This took me AGES to figure out the ** for power of)
+    weeklyInterest= float(interestRate)/5200  #bugged with int changed casting to float
+# weekly payment = i/1 - (1+i)**(-52*years) * loan amount  (This took me AGES to figure out the ** for power of in code)
+    WeeklyPayment= weeklyInterest/(1 - (1+ weeklyInterest) ** (-52*int(NumYears))) * int(loanAmount)
+#so many parathesis it was a challenge to figure out appropriate placement.
 #your weekly payment will be ${0:.2f}
-
+    print("Your weekly payment will be ${0:.2f}".format(WeeklyPayment))
 
 
 
